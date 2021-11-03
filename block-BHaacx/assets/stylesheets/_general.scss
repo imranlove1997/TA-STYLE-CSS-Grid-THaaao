@@ -1,0 +1,310 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  .sec-padding {
+    padding: 4rem 0;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  p {
+    font-size: 1rem;
+  }
+  strong {
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--pri);
+    text-shadow: 1px 1px 3px black;
+    span {
+      color: black;
+      margin-left: 0.5rem;
+    }
+  }
+  
+  h1 {
+    font-weight: 400;
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.7;
+  }
+  h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  header {
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    strong {
+      margin-left: 2rem;
+    }
+    ul {
+      margin-right: 2rem;
+    }
+    li {
+      margin-right: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      a:hover {
+        color: $sec;
+      }
+    }
+  }
+  .ham-div {
+    i {
+      display: none;
+    }
+  }
+  
+  .footer {
+    padding: 5rem 0;
+    text-align: center;
+    small {
+      font-size: 0.9rem;
+      color: gray;
+      span {
+          color: $ter;
+      }
+    }
+  }
+  .footer-nav {
+      margin: 0 auto;
+      padding: 1rem 30rem;
+  } li {
+      margin-left: 1rem;
+  } .fab, .fas {
+      color: $text-gray;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border: 3px solid black;
+    color: var(--pri);
+  }
+  .btn-sec {
+    background-color: $pri;
+    border: none;
+    font-size: 1rem;
+    color: black;
+    border: none;
+    padding: 0.5rem 5rem;
+  }
+  .p-sec-head {
+    font-size: 1rem;
+    color: var(--text-gray);
+  }
+  p {
+    font-size: 0.8rem;
+    color: rgba(102, 101, 101, 0.723);
+    margin: 1.5rem 0;
+    line-height: 1.6;
+  }
+  .flexi-img {
+    height: 100%;
+    width: 100%;
+  }
+  .flexib-img {
+    width: 100%;
+  }
+  .color-pri {
+    color: $sec;
+  }
+  .color-gray {
+    color: rgba(102, 101, 101, 0.723);
+  }
+  span {
+    font-weight: 700;
+  }
+  .display-none {
+    display: none;
+  }
+  .flex {
+    display: flex;
+  }
+  .justify {
+    justify-content: space-between;
+  }
+  .grid-div {
+    display: grid;
+  
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .item {
+    border: 1px solid gray;
+  }
+  .item-padding {
+    padding: 1rem;
+  }
+  .flex {
+    display: flex;
+  }
+  .center-center {
+    justify-content: center;
+    align-items: center;
+  }
+  .all-center {
+    text-align: center;
+  }
+  .item1 {
+    grid-column: span 2;
+  }
+  .item2 {
+    grid-column: span 2;
+    background-color: $pri;
+    padding: 7rem 1rem;
+    > * {
+      margin-bottom: 1rem;
+    }
+  }
+  .item3 {
+    grid-column: span 2;
+    > * {
+      margin-bottom: 1.5rem;
+    }
+  }
+  .item5 {
+    background-color: $sec;
+    color: white;
+    > * {
+      margin-bottom: 1rem;
+    }
+  
+    label {
+      font-size: 1rem;
+    }
+    progress {
+      height: 0.5rem;
+    }
+  }
+  .item6,
+  .item7,
+  .item8,
+  .item9 {
+    > * {
+      margin-bottom: 2rem;
+    }
+  }
+  .item6 {
+    background-color: $sec;
+    color: white;
+    p {
+      color: white;
+    }
+  }
+  .item7 {
+    background-color: $ter;
+    color: white;
+    p {
+      color: white;
+    }
+  }
+  .item8 {
+    background-color: black;
+    color: white;
+    p {
+      color: white;
+    }
+  }
+  .item9 {
+    background-color: white;
+  }
+  .item10 {
+    grid-column: span 2;
+  }
+  .item11 {
+    grid-column: span 2;
+    background-color: $ter;
+    color: white;
+    p {
+      color: white;
+    }
+  }
+  .item11,
+  .item12 {
+    h4 span {
+      font-size: 1rem;
+      color: rgb(87, 84, 84);
+    }
+    > * {
+      margin-bottom: 2rem;
+    }
+  }
+  .item12 {
+    grid-column: span 2;
+    background-color: $sec;
+    color: white;
+    p {
+      color: white;
+    }
+  }
+  .item13 {
+    grid-column: span 2;
+  }
+  .item14 {
+    grid-column: span 2;
+    background-color: $ter;
+    color: white;
+    > * {
+      margin-bottom: 1rem;
+    }
+    input,
+    textarea {
+      background-color: $ter;
+      border: none;
+      outline: none;
+      width: 100%;
+      border-bottom: 1px solid $sec;
+      padding: 0.5rem;
+    }
+    input::placeholder,
+    textarea::placeholder {
+      color: white;
+    }
+  }
+ 
+  .item16 {
+    background-color: black;
+    color: white;
+    a {
+      color: white;
+      font-size: 1rem;
+    }
+  }
+  .item17 {
+    grid-column: span 4;
+    background-color: $ter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    iframe {
+      box-shadow: 1px 1px 5px black;
+    }
+  }
